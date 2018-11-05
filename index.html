@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Memory Game</title>
+      <!--Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+      <!--Fontawesome-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <link href="style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <!--Nav and settings-->
+    <header>
+      <!--Title-->
+      <h1>Memory Game</h1>
+      <h4>Click a difficulty to start!</h4>
+      <!--Information Tab-->
+      <div class="meta">
+        <!--Buttons-->
+        <div class="buttons">
+          <!--Difficulty-->
+          <div class="difficulty">Easy</div>
+          <div class="difficulty">Hard</div>
+          <!--Reset-->
+          <i id="reset" class="fas fa-redo-alt"></i>
+        </div>
+        <!--Stars-->
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <!--Moves-->
+        <h2><span id="move-count">0</span> move(s)</h2>
+
+      </div>
+      <!--Timer-->
+      <h2 id="timer-display">
+        <!--Minutes-->
+        <span id="minutes">00</span>
+        <!--Colon-->
+        :
+        <!--Seconds-->
+        <span id="seconds">00</span>
+      </h2>
+    </header>
+
+    <div id="tile-container">
+      <!--<div class="tile">
+        Icon
+      </div>-->
+    </div>
+
+  </body>
+  <!--JS Script-->
+  <script src="main.js" type="text/javascript"></script>
+</html>
