@@ -173,11 +173,11 @@ function checkWin() {
   // The more moves you make, the lower your star rating
   function starCheck() {
     if (difficulty == "Easy") {
-      if (moveCount > 10) {
+      if (moveCount > 6) {
         // Two stars gold
         document.querySelector(".stars").children[2].style.color = "transparent";
         starCount = 2;
-      } else if (moveCount > 15) {
+      } else if (moveCount > 10) {
         // One star gold
         document.querySelector(".stars").children[2].style.color = "transparent";
         document.querySelector(".stars").children[1].style.color = "transparent";
